@@ -40,11 +40,11 @@ export default function RootLayout({
         <link rel="stylesheet" href="./styles/animate.css"></link>
         <link
           rel="stylesheet"
-          href="styles/open-iconic-bootstrap.min.css"
+          href="./styles/open-iconic-bootstrap.min.css"
         ></link>
         <link
           rel="stylesheet"
-          href="styles/Font/FontAwesome/all.min.css"
+          href="./styles/Font/FontAwesome/all.min.css"
         ></link>
       </head>
 
