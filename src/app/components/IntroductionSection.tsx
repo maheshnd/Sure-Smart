@@ -7,7 +7,7 @@ export const IntroductionSection = () => {
       <div className="container-fluid px-0">
         <div className="row d-md-flex no-gutters slider-text align-items-center js-fullheight justify-content-end">
           <img
-            src="/images/homeimage.gif"
+            src="./images/homeimage.gif"
             alt="Vercel Logo"
             className="dark:invert home-image"
             style={{

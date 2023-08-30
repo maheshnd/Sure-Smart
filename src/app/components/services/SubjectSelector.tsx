@@ -8,7 +8,11 @@ export const SubjectSelector = () => {
     >
       <div className="d-md-flex">
         <div className="one-forth align-self-center">
-          <img src="/images/subjectselector.png" className="img-fluid" alt="" />
+          <img
+            src="./images/subjectselector.png"
+            className="img-fluid"
+            alt=""
+          />
         </div>
         <div className="one-half ml-md-5 align-self-center">
           <div className="card">

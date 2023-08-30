@@ -21,7 +21,7 @@ export const ImportanceOfCounseling = () => {
             <div className="media block-6 services d-flex align-items-center">
               <img
                 className="d-flex align-items-center justify-content-center order-md-last"
-                src="/images/advice.png"
+                src="./images/advice.png"
                 alt=""
               />
               <div className="media-body pl-4 pl-md-0 pr-md-4 text-md-right">
@@ -40,7 +40,7 @@ export const ImportanceOfCounseling = () => {
             <div className="media block-6 services d-flex align-items-center">
               <img
                 className="d-flex align-items-center justify-content-center"
-                src="/images/tips.png"
+                src="./images/tips.png"
                 alt=""
               />
               <div className="media-body pl-4">
@@ -59,7 +59,7 @@ export const ImportanceOfCounseling = () => {
             <div className="media block-6 services d-flex align-items-center">
               <img
                 className="d-flex align-items-center justify-content-center order-md-last"
-                src="/images/help.png"
+                src="./images/help.png"
                 alt=""
               />
               <div className="media-body pl-4 pl-md-0 pr-md-4 text-md-right">
@@ -78,7 +78,7 @@ export const ImportanceOfCounseling = () => {
             <div className="media block-6 services d-flex align-items-center">
               <img
                 className="d-flex align-items-center justify-content-center"
-                src="/images/support.png"
+                src="./images/support.png"
                 alt=""
               />
               <div className="media-body pl-4">
@@ -96,7 +96,7 @@ export const ImportanceOfCounseling = () => {
             <div className="media block-6 services d-flex align-items-center">
               <img
                 className="d-flex align-items-center justify-content-center order-md-last"
-                src="/images/assistance.png"
+                src="./images/assistance.png"
                 alt=""
               />
               <div className="media-body pl-4 pl-md-0 pr-md-4 text-md-right">
@@ -114,7 +114,7 @@ export const ImportanceOfCounseling = () => {
             <div className="media block-6 services d-flex align-items-center">
               <img
                 className="d-flex align-items-center justify-content-center"
-                src="/images/guidance.png"
+                src="./images/guidance.png"
                 alt=""
               />
               <div className="media-body pl-4">

@@ -8,7 +8,7 @@ export const Grades11To12 = () => {
     >
       <div className="d-md-flex">
         <div className="one-forth order-last align-self-center">
-          <img src="/images/student11to12.png" className="img-fluid" alt="" />
+          <img src="./images/student11to12.png" className="img-fluid" alt="" />
         </div>
         <div className="one-half order-first mr-md-5 align-self-center">
           <div className="accordion" id="accordionExample">
