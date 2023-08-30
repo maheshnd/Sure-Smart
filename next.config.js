@@ -3,8 +3,8 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  distDir: "build", // Set your desired build directory
-  output: "static", // Use "static" for exporting a static site
+  distDir: "build",
+  output: "export",
 };
 
 module.exports = nextConfig;
