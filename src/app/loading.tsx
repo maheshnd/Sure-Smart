@@ -8,7 +8,7 @@ const LoadingPage = () => {
           cy="24"
           r="22"
           fill="none"
-          stroke-width="4"
+          strokeWidth="4"
           stroke="#eeeeee"
         />
         <circle
@@ -17,8 +17,8 @@ const LoadingPage = () => {
           cy="24"
           r="22"
           fill="none"
-          stroke-width="4"
-          stroke-miterlimit="10"
+          strokeWidth="4"
+          strokeMiterlimit="10"
           stroke="#F96D00"
         />
       </svg>
