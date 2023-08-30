@@ -1,5 +1,3 @@
-import { college } from "../../assets/images/allImages";
-
 export const CollegeApplication = () => {
   return (
     <div
