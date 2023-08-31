@@ -16,7 +16,7 @@ const AboutPage = () => {
         <div className="row">
           <div className="row">
             <div className="col-lg-6 py-5">
-              <img src="/images/aboutus.png" className="img-fluid" alt="" />
+              <img src="./images/aboutus.png" className="img-fluid" alt="" />
               <div>
                 <blockquote className="blockquote">
                   <p className="mb-0">
@@ -53,7 +53,7 @@ const AboutPage = () => {
                 <div className="row">
                   <div className="col-lg-3 py-5">
                     <img
-                      src="/images/Joyce-Joseph.jpeg"
+                      src="./images/Joyce-Joseph.jpeg"
                       className="img-fluid rounded mb-4"
                       alt=""
                       style={{ height: "67%" }}
