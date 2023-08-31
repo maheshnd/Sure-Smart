@@ -46,7 +46,7 @@ const AboutPage = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row" id="about-joyce">
             <div className="col-lg-12 py-5">
               <div className="heading-section ftco-animate mt-5">
                 <h2 className="mb-4">About Joyce Joseph</h2>

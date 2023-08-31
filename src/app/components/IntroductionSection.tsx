@@ -9,10 +9,7 @@ export const IntroductionSection = () => {
           <img
             src="./images/homeimage.gif"
             alt="Vercel Logo"
-            className="dark:invert home-image"
-            style={{
-              padding: "9em",
-            }}
+            className="one-third align-self-end order-md-last img-fluid home-sectio_img"
           />
           <div className="one-forth d-flex align-items-center ftco-animate js-fullheight">
             <div className="text mt-5">

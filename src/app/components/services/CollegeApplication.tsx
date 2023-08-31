@@ -121,7 +121,7 @@ export const CollegeApplication = () => {
               </h5>
             </div>
             <div
-              id="collapseFourSubject"
+              id="collapseFourCollege"
               className="collapse"
               aria-labelledby="headingTwo"
               data-parent="#accordionExample"

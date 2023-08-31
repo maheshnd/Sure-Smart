@@ -26,6 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
           href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,,500,600,700"
           rel="stylesheet"
@@ -42,10 +43,7 @@ export default function RootLayout({
           rel="stylesheet"
           href="./styles/open-iconic-bootstrap.min.css"
         ></link>
-        <link
-          rel="stylesheet"
-          href="./styles/Font/FontAwesome/all.min.css"
-        ></link>
+        <link rel="stylesheet" href="./styles/font-awesom.all.min.css"></link>
       </head>
 
       <body>

@@ -1,8 +1,18 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const StudentInfo = () => {
   const [iframeLoaded, setIframeLoaded] = useState(false);
+  useEffect(() => {
+    const iframe = document.querySelector("iframe");
+    const handleIframeLoad = () => {
+      setIframeLoaded(true);
+    };
+    iframe?.addEventListener("load", handleIframeLoad);
+    return () => {
+      iframe?.removeEventListener("load", handleIframeLoad);
+    };
+  }, []);
   return (
     <section
       className="ftco-section services-section bg-light"
@@ -27,7 +37,6 @@ const StudentInfo = () => {
               frameBorder="0"
               className="mb-4"
               style={{ width: "100%" }}
-              onLoad={() => setIframeLoaded(true)}
             >
               Loading…
             </iframe>
