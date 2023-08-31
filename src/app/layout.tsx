@@ -31,10 +31,6 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,,500,600,700"
           rel="stylesheet"
         />
-        <link
-          rel="stylesheet"
-          href="./styles/font-awesome-5.15.3-all.min.css"
-        ></link>
         <link rel="stylesheet" href="./styles/style.css"></link>
         <link rel="stylesheet" href="./styles/flaticon.css"></link>
         <link rel="stylesheet" href="./styles/icomoon.css"></link>
