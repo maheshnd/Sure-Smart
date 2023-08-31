@@ -1,10 +1,10 @@
 "use client";
 import { styled, keyframes } from "styled-components";
 const Container = styled.div`
-  position: fixed;
-  left: 10px;
-  bottom: 50px;
-  z-index: 1000;
+  position: fixed !important;
+  left: 10px !important;
+  bottom: 50px !important;
+  z-index: 1000 !important;
 `;
 
 const bounceAnimation = keyframes`
@@ -19,13 +19,13 @@ const bounceAnimation = keyframes`
 `;
 
 const WhatsAppIcon = styled.a`
-  animation: ${bounceAnimation} 1s infinite;
-  cursor: pointer;
-  display: inline-block; /* Ensure the link takes up space */
+  animation: ${bounceAnimation} 1s infinite !important;
+  cursor: pointer !important;
+  display: inline-block !important; /* Ensure the link takes up space */
 `;
 
 const Icon = styled.i`
-  font-size: 4rem;
+  font-size: 4rem !important;
 `;
 export const WhatsAppChat = () => {
   const handleWhatsAppClick = () => {
