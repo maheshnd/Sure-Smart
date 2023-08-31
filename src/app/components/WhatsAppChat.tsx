@@ -1,5 +1,7 @@
 "use client";
 import { styled, keyframes } from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 const Container = styled.div`
   position: fixed;
   left: 10px;
@@ -24,9 +26,6 @@ const WhatsAppIcon = styled.a`
   display: inline-block; /* Ensure the link takes up space */
 `;
 
-const Icon = styled.i`
-  font-size: 4rem;
-`;
 export const WhatsAppChat = () => {
   const handleWhatsAppClick = () => {
     const phoneNumber = "7350837127";
@@ -39,7 +38,7 @@ export const WhatsAppChat = () => {
   return (
     <Container>
       <WhatsAppIcon onClick={handleWhatsAppClick}>
-        <Icon className="fab fa-whatsapp"></Icon>
+        <FontAwesomeIcon icon={faWhatsapp} style={{ fontSize: "4rem" }} />
       </WhatsAppIcon>
     </Container>
   );
