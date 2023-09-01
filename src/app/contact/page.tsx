@@ -32,11 +32,6 @@ const ContactUs = () => {
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ): void => {
     const { name, value } = e.target;
-    const updatedFormValue = { ...formValue } as {
-      [key: string]: IFormFieldValue;
-    };
-    // updatedFormValue[name].value = value;
-    // updatedFormValue[name].error = "";
     setFormValue((prevFormValue) => {
       return {
         ...prevFormValue,
@@ -97,16 +92,28 @@ const ContactUs = () => {
       setFormValue(updatedFormValue as unknown as InitialContctFormState);
       return;
     }
-    const message = `
-              Name: ${formValue.name.value}
-              Email: ${formValue.email.value}
-              Subject: ${formValue.subject.value}
-              Phone: ${formValue.phone.value}
-              Message: ${formValue.message.value}
-            `;
-    const whatsappURL = `https://api.whatsapp.com/send?phone=7350837127&text=${message}`;
-    window.open(whatsappURL, "_blank");
-    setFormValue(initialState);
+    const message = {
+      Name: formValue.name.value,
+      Email: formValue.email.value,
+      Subject: formValue.subject.value,
+      Phone: formValue.phone.value,
+      Message: formValue.message.value,
+    };
+    fetch("/api/sendmail", {
+      method: "POST",
+      headers: {
+        Accept: "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(message),
+    })
+      .then((res) => {
+        console.log("Response received");
+        setFormValue(initialState);
+      })
+      .catch((error) => {
+        console.log("Error received", error);
+      });
   };
 
   const divStyle = {
